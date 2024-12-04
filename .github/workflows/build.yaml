@@ -20,4 +20,7 @@ jobs:
           architecture: x64
       - name: Compile&test project
         run: 'mvn test'
+      - name: Build image
+        run: mvn spring-boot:build-image
+      
   
