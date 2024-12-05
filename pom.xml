@@ -129,8 +129,8 @@
                     </image>
                     <docker>
                         <publishRegistry>
-                            <username>actraiser</username>
-                            <password>fenix000</password>
+                            <username>${env.DOCKER_USERNAME}</username>
+                            <password>${env.DOCKER_PASSWORD}</password>
                         </publishRegistry>
                     </docker>
 				</configuration>
