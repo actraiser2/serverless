@@ -134,16 +134,16 @@
                         </publishRegistry>
                     </docker>
 				</configuration>
-				<dependencies>
+				<!--<dependencies>
                     <dependency>
                         <groupId>org.springframework.boot.experimental</groupId>
                         <artifactId>spring-boot-thin-layout</artifactId>
                         <version>1.0.28.RELEASE</version>
                     </dependency>
-                </dependencies>
+                </dependencies>-->
 			</plugin>
 			
-			<plugin>
+			<!--<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
                 <configuration>
@@ -151,7 +151,7 @@
                     <shadedArtifactAttached>true</shadedArtifactAttached>
                     <shadedClassifierName>aws</shadedClassifierName>
                 </configuration>
-            </plugin>
+            </plugin>-->
 		</plugins>
 	</build>
 
